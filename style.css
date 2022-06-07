@@ -1,0 +1,140 @@
+body{
+    background-color:burlywood;
+   /*background-image: url(https://henderson.ces.ncsu.edu/wp-content/uploads/2020/08/CFAP-Food-Box-Program.jpeg);*/
+    background-repeat:cover;
+}
+.topbox{
+    
+    text-align: center;
+    border: 10px solid blue;
+    border-radius: 15px;
+    width: 30%;
+    margin: auto;
+    background-color: bisque;
+    box-shadow: 2px 2px burlywood;
+
+    
+}
+.top{
+    color: black;
+    text-shadow:2px 2px blueviolet;
+    font-size:larger;
+    font-weight: bolder;
+}
+hr{
+    margin-top: 10px;
+    margin-bottom: 0%;
+}
+.fixedbox{
+    text-align:center;
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 20px;
+    background-color: yellowgreen;
+    border: 5px solid blue;
+    border-radius: 20px;
+    color: blue;
+    text-shadow: 1px 1px blueviolet;
+    box-shadow: 4px 4px blueviolet;
+    position: fixed;
+    bottom: 0;
+}
+.fixedbox .leftpart{
+    font-weight: bold;
+    width: 60%;
+    float: left;
+    display: inline;
+}
+.fixedbox .rightpart{
+    width: 40%;
+    display: inline;
+    float: right;
+}
+.main{
+    border: 0px solid blue;
+    margin-top: 5px;
+    height: 500px;
+}
+.box{
+    border: 3px solid blue;
+    border-radius: 5px;
+    box-shadow: 4px 4px burlywood;
+    width: 20%;
+    height: 35%;
+    float: left;
+    background-color: whitesmoke;
+    color: darkviolet;
+    text-shadow: 1px 1px purple;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: auto;
+    font-size: larger;
+
+}
+.first{
+    margin-right: 25%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-left: 4%;
+}
+.second{
+   margin-left: 25%;
+   margin-bottom: 5%;
+   margin-top: 2%;
+}
+.second img{
+    height: 80%;
+    width: 90%;
+    object-fit: contain;
+    margin: auto;
+    margin-top: 2%
+}
+.third{
+    margin-right: 25%;
+    margin-left: 4%;
+}
+.forth{
+    margin-left: 25%;
+}
+.submitbutton{
+    background-color: yellowgreen;
+    color: darkviolet;
+    text-shadow: 1px 1px purple;
+    border-radius: 20px;
+}
+label{
+    font-size: large;
+}
+.welcome{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+    border: 2px solid purple;
+    background-color: red;
+}
+.heading{
+    font-size: larger;
+    font-weight: bolder;
+    text-shadow: 1px 1px purple;
+    border-radius: 20px;
+}
+.boxheading{
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+}
+.smallbox{
+    width: 48%;
+    float: left;
+    margin: 1%;
+    font-style: italic;
+    background-color: rgb(205, 205, 101);
+}
+.bigbox{
+    margin: 1%;
+    margin-top: 23%;
+    background-color: rgb(205, 205, 101);
+}
+
